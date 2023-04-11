@@ -32,6 +32,25 @@ namespace RhythmsGonnaGetYou
                 {
                     Console.WriteLine("What is the new band's name?");
                     var name = Console.ReadLine();
+                    Console.WriteLine("What is the new band's country of origin?");
+                    var countryOfOrigin = Console.ReadLine();
+                    Console.WriteLine("How many members are in the new band?");
+                    var numbersOfMembers = int.Parse(Console.ReadLine());
+                    Console.WriteLine("What is the new band's website?");
+                    var website = Console.ReadLine();
+                    Console.WriteLine("What is the new band's genre?");
+                    var genre = Console.ReadLine();
+                    Console.WriteLine("Is the new band signed?");
+                    var isSigned = Boolean.Parse(Console.ReadLine());
+                    Console.WriteLine("What is the new band's contact name?");
+                    var contactName = Console.ReadLine();
+                    Console.WriteLine("What is the new band's contact phone number?");
+                    var contactPhoneNumber = Console.ReadLine();
+
+                    var newBand = new Bands
+                    {
+
+                    };
 
 
                 }
