@@ -20,7 +20,7 @@ namespace RhythmsGonnaGetYou
             {
                 Console.WriteLine("What would you like to do?");
                 Console.WriteLine("Would you like to [A]dd a new band?: ");
-
+                Console.WriteLine("Would you like to [V]iew all the bands?");
 
 
 
@@ -49,6 +49,14 @@ namespace RhythmsGonnaGetYou
 
                     var newBand = new Bands
                     {
+                        Name = name,
+                        CountryOfOrigin = countryOfOrigin,
+                        NumberOfMembers = numbersOfMembers,
+                        Website = website,
+                        Genre = genre,
+                        IsSigned = isSigned,
+                        ContactName = contactName,
+
 
                     };
 
