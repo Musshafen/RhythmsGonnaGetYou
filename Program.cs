@@ -62,9 +62,14 @@ namespace RhythmsGonnaGetYou
 
 
                 }
+                if (choice == "V")
+                {
+                    //foreach (var band in bands)
+                    {
+                        //    Console.WriteLine(band.Name);
+                    }
 
-
-
+                }
 
             }
 
