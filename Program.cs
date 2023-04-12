@@ -21,6 +21,7 @@ namespace RhythmsGonnaGetYou
                 Console.WriteLine("What would you like to do?");
                 Console.WriteLine("Would you like to [A]dd a new band?: ");
                 Console.WriteLine("Would you like to [V]iew all the bands?");
+                Console.WriteLine("Would you like to add a new Albu[m] for a band?");
 
 
 
