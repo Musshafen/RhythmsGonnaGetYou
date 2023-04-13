@@ -22,6 +22,7 @@ namespace RhythmsGonnaGetYou
                 Console.WriteLine("Would you like to [A]dd a new band?: ");
                 Console.WriteLine("Would you like to [V]iew all the bands?");
                 Console.WriteLine("Would you like to add a new Albu[M] for a band?");
+                Console.WriteLine("Would you like to [L]et a band go?");
 
 
 
@@ -97,6 +98,18 @@ namespace RhythmsGonnaGetYou
 
                 }
 
+                if (choice == "L")
+                {
+                  Console.WriteLine("What band would you like to let go?");
+                  var fireBand = Console.ReadLine();
+
+                 // var bandToFire = context.Bands.FirstOrDefault(bandToFire => band.name == fireBand);
+
+              
+
+
+
+                }
 
 
             }
