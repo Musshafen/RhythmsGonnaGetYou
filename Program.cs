@@ -21,7 +21,7 @@ namespace RhythmsGonnaGetYou
                 Console.WriteLine("What would you like to do?");
                 Console.WriteLine("Would you like to [A]dd a new band?: ");
                 Console.WriteLine("Would you like to [V]iew all the bands?");
-                Console.WriteLine("Would you like to add a new Albu[m] for a band?");
+                Console.WriteLine("Would you like to add a new Albu[M] for a band?");
 
 
 
@@ -71,6 +71,33 @@ namespace RhythmsGonnaGetYou
                     }
 
                 }
+                if (choice == "M")
+                {
+                    Console.WriteLine("What is the new album's title?");
+                    var title = Console.ReadLine();
+
+                    Console.WriteLine("Is the new album explicit?");
+                    var isExplicit = Boolean.Parse(Console.ReadLine());
+
+                    Console.WriteLine("What year was the album released?");
+                    var releaseDate = Console.ReadLine();
+
+                    Console.WriteLine("What is the band ID for the new album?");
+                    var bandId = int.Parse(Console.ReadLine());
+
+                    var newAlbum = new Albums
+                    {
+                        Title = title,
+                        IsExplicit = isExplicit,
+                        ReleaseDate = releaseDate,
+                        BandId = bandId
+
+                    };
+
+
+                }
+
+
 
             }
 
